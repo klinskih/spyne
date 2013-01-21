@@ -164,7 +164,7 @@ class Unicode(SimpleModel):
         """A regular expression that matches the whole string. See here for more
         info: http://www.regular-expressions.info/xml.html"""
 
-        encoding = None
+        encoding = 'utf8'
         """The encoding of `str` objects this class may have to deal with."""
 
         unicode_errors = 'strict'
